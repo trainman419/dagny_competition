@@ -6,6 +6,7 @@
       <param name="max_speed" value="2.0" />
       <param name="goal_err" value="4.0" />
       <param name="max_accel" value="0.2" />
+      <param name="max_radius" value="2.0" />
       <remap from="position" to="odom"/>
    </node>
    <node pkg="goal_list" type="goal_list" name="goal_list"
