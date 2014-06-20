@@ -1,0 +1,8 @@
+<launch>
+   <node pkg="cone_detector" type="cone_detector" name="cone_detector" 
+      output="screen"/>
+   <node pkg="path_planner" type="path_planner" name="path_planner"
+      output="screen"/>
+   <node pkg="goal_list" type="goal_list" name="goal_list"
+      output="screen"/>
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+   <node pkg="path_planner" type="path_planner" name="path_planner"
+      output="screen">
+      <param name="track_cones" value="false"/>
+      <param name="min_speed" value="0.3" />
+      <param name="max_speed" value="1.0" />
+      <param name="goal_err" value="3.0" />
+      <param name="max_accel" value="0.2" />
+   </node>
+   <node pkg="goal_list" type="goal_list" name="goal_list" output="screen"/>
+</launch>

@@ -1,0 +1,14 @@
+# start: west end of last line of parking spaces
+# NOT the final value
+#start: [ 40.065318,-105.210095 ]
+start: [ 40.065171,-105.210088 ]
+goals_rel: [
+   [ 40.065167,-105.209742 ],
+   [ 40.064488,-105.20976 ],
+   [ 40.064489,-105.210439 ],
+   [ 40.065175,-105.210433 ],
+   [ 40.065188,-105.209834 ],
+]
+loop: false
+goal_list:
+   loop: false

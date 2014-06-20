@@ -1,0 +1,9 @@
+<launch>
+   <node pkg="path_planner" type="path_planner" name="path_planner"
+      output="screen">
+      <param name="cone_dist" value="-1"/>
+   </node>
+   <node pkg="goal_list" type="goal_list" name="goal_list"
+      output="screen">
+   </node>
+</launch>
